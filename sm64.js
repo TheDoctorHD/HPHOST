@@ -1676,7 +1676,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = '../game/sm64.wasm';
+var wasmBinaryFile = 'https://github.com/TheDoctorHD/HPHOST/blob/7e1fa2d7d16050a6860875d8b2c397534fa9c345/sm64.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }
